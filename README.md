@@ -1,5 +1,12 @@
 # offset-sourcemap
 
+[![npm package][npm-img]][npm-url]
+[![Build Status][build-img]][build-url]
+[![Downloads][downloads-img]][downloads-url]
+[![Issues][issues-img]][issues-url]
+[![Code Coverage][codecov-img]][codecov-url]
+[![Commitizen Friendly][commitizen-img]][commitizen-url]
+
 ## Description
 
 `offset-sourcemap` is a utility for offsetting the lines of a source map. This can be useful in various scenarios where you need to adjust the line numbers in a source map, such as when concatenating files or adding/removing lines of code.
@@ -49,3 +56,17 @@ Returns the offset source map, either as a `RawSourceMap` object or a JSON strin
 ## License
 
 This project is licensed under the MIT License.
+
+
+[build-img]:https://github.com/noyobo/offset-sourcemap/actions/workflows/ci.yml/badge.svg
+[build-url]:https://github.com/noyobo/offset-sourcemap/actions/workflows/ci.yml
+[downloads-img]:https://img.shields.io/npm/dt/offset-sourcemap
+[downloads-url]:https://www.npmtrends.com/offset-sourcemap
+[npm-img]:https://img.shields.io/npm/v/offset-sourcemap
+[npm-url]:https://www.npmjs.com/package/offset-sourcemap
+[issues-img]:https://img.shields.io/github/issues/noyobo/offset-sourcemap
+[issues-url]:https://github.com/noyobo/offset-sourcemap/issues
+[codecov-img]:https://codecov.io/gh/noyobo/offset-sourcemap/branch/main/graph/badge.svg
+[codecov-url]:https://codecov.io/gh/noyobo/offset-sourcemap
+[commitizen-img]:https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[commitizen-url]:http://commitizen.github.io/cz-cli/
